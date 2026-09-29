@@ -1,0 +1,45 @@
+{
+  "detector": {
+    "accuracy": 0.9944903581267218,
+    "matched": 1089,
+    "gt_slots": 1104,
+    "recall": 0.9864130434782609,
+    "mae_available": 4.333333333333333
+  },
+  "classifier": {
+    "accuracy": 0.9853076216712581,
+    "matched": 1089,
+    "gt_slots": 1104,
+    "recall": 0.9864130434782609,
+    "mae_available": 4.777777777777778
+  },
+  "hybrid": {
+    "accuracy": 0.9917355371900827,
+    "matched": 1089,
+    "gt_slots": 1104,
+    "recall": 0.9864130434782609,
+    "mae_available": 4.5
+  },
+  "robustness": {
+    "dark (-45% brightness)": {
+      "detector": 0.9972,
+      "hybrid": 0.9954,
+      "recall": 0.9864
+    },
+    "bright / glare (+60)": {
+      "detector": 0.9953,
+      "hybrid": 0.9981,
+      "recall": 0.9728
+    },
+    "low contrast (haze/rain)": {
+      "detector": 0.9684,
+      "hybrid": 0.9879,
+      "recall": 0.9746
+    },
+    "motion blur": {
+      "detector": 0.9754,
+      "hybrid": 0.9631,
+      "recall": 0.3678
+    }
+  }
+}

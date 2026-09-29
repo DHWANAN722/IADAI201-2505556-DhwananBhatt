@@ -1,0 +1,35 @@
+{
+  "frames": {
+    "train": 85,
+    "val": 18,
+    "test": 18
+  },
+  "slots": {
+    "train": {
+      "empty": 2698,
+      "occupied": 2694
+    },
+    "val": {
+      "empty": 446,
+      "occupied": 490
+    },
+    "test": {
+      "empty": 617,
+      "occupied": 487
+    }
+  },
+  "crops": {
+    "train": {
+      "empty": 420,
+      "occupied": 420
+    },
+    "val": {
+      "empty": 90,
+      "occupied": 90
+    },
+    "test": {
+      "empty": 90,
+      "occupied": 90
+    }
+  }
+}
